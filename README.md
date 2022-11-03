@@ -1,10 +1,10 @@
 # Tetris in PyQT5
 
 This is a simple tetris game that is running on PyQT5 library.
-Start the game by running tetris.py with python.
+Start the game by running tetris.exe or running `python.exe tetris.py` in the source folder.
 Control the figure with left, right, up and down arrows or use w, a, s and d.
 
-# How to play
+# Controls
 
 left/a, right/d = movement
 up/w = rotate
