@@ -340,7 +340,7 @@ class PlayWindow(QDialog):
         QDialog.closeEvent(self, event)
 
 #==============================================================================================================
-                                         #Leaderboard (opens after pressing Leaderboard button on title window)
+                                         #Leaderboard (opens after game over)
 class Leaderboard(QDialog):
     closed = pyqtSignal()   #signal attribute for parent window
     def __init__(self, score, level):
