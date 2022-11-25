@@ -2,24 +2,25 @@
 
 This is a simple tetris game that is running using PyQT5 library.
 
-Start the game by double-clicking tetris.exe or running `python.exe tetris.py` in the "source" folder.
+Start the game by launching **tetris.exe** or running **tetris.py** in the "source" folder.
 
 Must have PyQt5 and keyboard libraries installed.
 
 `pip install PyQt5`
+
 `pip install keyboard`
 
 # Controls
 
-Control the figure with left, right, up and down arrows or use w, a, s and d.
+Control the figure with Left, Right, Up and Down arrows or use W, A, S and D.
 
-left / a = move left
+- Left / A = move left
 
-right / d = move right
+- Right / D = move right
 
-up / w = rotate
+- Up / W = rotate
 
-down / s = fall
+- Down / S = fall
 
 # Screenshots
 
