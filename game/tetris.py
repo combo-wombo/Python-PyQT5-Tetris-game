@@ -309,6 +309,8 @@ class PlayWindow(QDialog):
 
             if keyboard.is_pressed('p'):
                 info.lines += 2
+                info.score += 40
+                self.time += 85
 
             #============================================================================================
 
