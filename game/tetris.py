@@ -222,13 +222,13 @@ class PlayWindow(QDialog):
         self.wasd_space = [0,0,0,0,0]
 
     def keyPressEvent(self, event):
-        if event.key() == Qt.Key_W:
+        if event.key() == Qt.Key_W or event.key() == Qt.Key_Up:
             self.wasd_space[0] = 1
-        if event.key() == Qt.Key_A:
+        if event.key() == Qt.Key_A or event.key() == Qt.Key_Left:
             self.wasd_space[1] = 1
-        if event.key() == Qt.Key_S:
+        if event.key() == Qt.Key_S or event.key() == Qt.Key_Down:
             self.wasd_space[2] = 1
-        if event.key() == Qt.Key_D:
+        if event.key() == Qt.Key_D or event.key() == Qt.Key_Right:
             self.wasd_space[3] = 1
         if event.key() == Qt.Key_Space:
             self.wasd_space[4] = 1
