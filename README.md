@@ -22,7 +22,11 @@ Control the figure with Left, Right, Up and Down arrows or use W, A, S and D.
 
 - Up / W = rotate
 
-- Down / S = fall
+- Down / S = soft drop
+
+- Space = hard drop
+
+- P = add lines
 
 # Screenshots
 
