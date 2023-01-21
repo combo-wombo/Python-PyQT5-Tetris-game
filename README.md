@@ -1,14 +1,16 @@
-# Tetris in PyQT5
+# Tetris (Qt)
 
-This is a simple tetris game that is running using PyQT5 library.
+This is a simple tetris game that is running on PyQT5.
 
 Start the game by launching **tetris.exe** or running **tetris.py** in the "source" folder.
 
-Must have PyQt5 and keyboard libraries installed.
+Must have PyQt5, pygame and keyboard modules installed.
 
 `pip install PyQt5`
 
 `pip install keyboard`
+
+`pip install pygame`
 
 # Controls
 
